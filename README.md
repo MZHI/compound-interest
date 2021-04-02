@@ -4,7 +4,7 @@
 
 ## What is compound interest
 
-Referring to the definition from [this](https://www.investopedia.com/terms/c/compoundinterest.asp) resource,  
+Referring to the definition from [this](https://www.investopedia.com/terms/c/compoundinterest.asp) resource:  
 `Compound interest (or compounding interest) is the interest on a loan or deposit calculated based on both the initial principal and the accumulated interest from previous periods. Thought to have originated in 17th-century Italy, compound interest can be thought of as "interest on interest," and will make a sum grow at a faster rate than simple interest, which is calculated only on the principal amount.`
 
 ## Usage
@@ -17,6 +17,8 @@ Just run script `compound_interest_calc.py` in console mode. Parameters:
 * `--is-monthly` - whether to reinvest profit every month (==1) or only once a year (==0). Default 0 (once a year)
 
 ## Examples
+
+<details><summary><b>Show instructions</b></summary>
 
 1. Running with default parameters:
 ```sh
@@ -45,9 +47,11 @@ $ python3 compound_interest_calc.py --initial-amount 5000 --monthly-add 300 --in
 ```
 Output:
 ```sh
-$ einvesting every month. Start: 5000$, monthly add: 300$, interest: 10.00%, years: 20
+$ Reinvesting every month. Start: 5000$, monthly add: 300$, interest: 10.00%, years: 20
 $ Your final amount: 264451.02$
 ```
+
+</details>
 
 **Have fun to calculation your investment strategy!**
 **Any contributions and ideas for further developing are appreciated!**
