@@ -18,7 +18,7 @@ Just run script `compound_interest_calc.py` in console mode. Parameters:
 
 ## Examples
 
-<details><summary><b>Show instructions</b></summary>
+<details><summary><b>Show examples</b></summary>
 
 1. Running with default parameters:
 ```sh
@@ -53,5 +53,6 @@ $ Your final amount: 264451.02$
 
 </details>
 
-**Have fun to calculation your investment strategy!**
+
+**Have fun to calculation your investment strategy!** 
 **Any contributions and ideas for further developing are appreciated!**
