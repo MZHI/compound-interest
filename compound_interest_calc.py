@@ -69,7 +69,7 @@ if __name__ == "__main__":
         parser.add_argument("--monthly-add", type=int, default=100,
             help="Investing monthly sum. Default 100")
         parser.add_argument("--interest", type=int, default=10, 
-            help="estimated annual interest, in %. Default 10%")
+            help="estimated annual interest, in %%. Default 10%%")
         parser.add_argument("--years", type=int, default=10,
             help="number of years of inverstment. Default 10")
         parser.add_argument("--is-monthly", type=int, default=0,
@@ -78,3 +78,4 @@ if __name__ == "__main__":
     except Exception as ex:
         print("Error: {}".format(ex))
     main(parser.parse_args(sys.argv[1:]))
+
