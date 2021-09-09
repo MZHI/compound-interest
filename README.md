@@ -10,6 +10,7 @@ Referring to the definition from [this](https://www.investopedia.com/terms/c/com
 ## Usage
 
 Just run script `compound_interest_calc.py` in console mode. Parameters: 
+* `--help` - get descriptions for all available parameters
 * `--initial-amount` - initial amount of deposit, default 5000
 * `--monthly-add` - amount of monthly adding sum to deposit. Default 100
 * `--interest` - estimated annual interest, in %. Default 10
